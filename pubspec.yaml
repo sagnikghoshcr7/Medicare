@@ -1,0 +1,85 @@
+name: foodelivery
+description: A new Flutter project.
+
+publish_to: "none" 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.0.4
+  path_provider: ^1.6.5
+  http: ^0.12.0+4
+  like_button: ^1.0.1  
+  cupertino_icons: ^0.1.3
+  after_layout: ^1.0.7+2
+  flutter_signin_button: ^1.0.0
+  font_awesome_flutter: ^8.8.1
+  
+  
+
+dev_dependencies:
+  flutter_launcher_name: "^0.0.1"
+  flutter_launcher_icons: ^0.7.5
+  flutter_test:
+    sdk: flutter
+flutter_launcher_name:
+  name: "MEDICARE"
+
+flutter_icons:
+  image_path: "assets/images/icon.png" 
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background.jpg
+    - assets/images/coconuts.png
+    - assets/images/logo.png
+    - assets/images/fork.png
+    - assets/images/pizza.png
+    - assets/images/fries.png
+    - assets/images/background.png
+    - assets/images/delivery.jpg
+    - assets/images/m1.jpg
+    - assets/images/m2.jpg
+    - assets/images/m3.png
+    - assets/images/m4.png
+    - assets/images/m5.jpg
+    - assets/images/m6.jpg
+    - assets/images/m7.png
+    - assets/images/m8.png
+    - assets/images/m9.jpg
+    - assets/images/m10.png
+    - assets/images/n2.jpg
+    - assets/images/n1.jpg
+    - assets/images/n3.jpg
+    - assets/images/n4.jpg
+    - assets/images/n5.jpg
+    - assets/images/n6.jpg
+    - assets/images/Sagnik.jpg
+    - assets/images/Arnab.jpg
+    - assets/images/Sbh.jpg
+    - assets/images/App.jpg
+    - assets/images/Pre.jpg
+    - assets/images/Inf.png
+    - assets/images/a1.jpg
+    - assets/images/a2.jpg
+    - assets/images/a3.jpg
+    - assets/images/icon.png
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
